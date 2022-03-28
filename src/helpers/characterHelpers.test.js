@@ -24,6 +24,6 @@ test('alive status', () => {
 	expect(getAliveStatus(character1)).toBe('No');
 	expect(getAliveStatus(character2)).toBe('Unknown');
 	expect(getAliveStatus(character3)).toBe('No, died at 72 years old');
-	expect(getAliveStatus(character4)).toBe('Alive');
+	expect(getAliveStatus(character4)).toBe('Yes');
 });
 

@@ -30,7 +30,7 @@ export function getAliveStatus(character) {
 		return 'No';
 
 	if (character.born && !character.died)
-		return 'Alive';
+		return 'Yes';
 
 	return 'Unknown';
 }
