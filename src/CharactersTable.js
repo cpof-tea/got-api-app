@@ -21,12 +21,17 @@ const Columns = [
 	},
 	{
 		name: 'Allegiances',
-		render: (character) => characterHelpers.getAllegiances(character)
-			.map((allegiance, index, array) => (
+		render: (character) => {
+			const allegiances = characterHelpers.getAllegiances(character);
+
+			if (!allegiances.length) return 'No allegiances';
+
+			return allegiances.map((allegiance, index, array) => (
 				<span key={ allegiance }>
 					<Link to={ `/${allegiance}` }>{ allegiance }</Link>&nbsp;
 				</span>
-			)),
+			));
+		},
 	},
 ];
 
