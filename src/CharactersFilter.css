@@ -1,0 +1,8 @@
+.filter {
+	display: grid;
+	grid-auto-flow: column;
+	grid-auto-columns: max-content;
+	gap: 10px;
+	align-items: center;
+}
+
