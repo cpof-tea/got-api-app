@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pagination render 1`] = `
+<DocumentFragment>
+  <div
+    class="pagination"
+  >
+    <span>
+      <button
+        type="button"
+      >
+        Next page
+      </button>
+      <button
+        type="button"
+      >
+        Last page
+      </button>
+    </span>
+    <span>
+      Page 1 of 3
+    </span>
+    <span>
+      Items per page 
+      <select>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          selected=""
+          value="25"
+        >
+          25
+        </option>
+        <option
+          value="50"
+        >
+          50
+        </option>
+      </select>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`pagination render 2`] = `
+<DocumentFragment>
+  <div
+    class="pagination"
+  >
+    <span>
+      <button
+        type="button"
+      >
+        First page
+      </button>
+      <button
+        type="button"
+      >
+        Previous page
+      </button>
+    </span>
+    <span>
+      Page 3 of 3
+    </span>
+    <span>
+      Items per page 
+      <select>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          selected=""
+          value="25"
+        >
+          25
+        </option>
+        <option
+          value="50"
+        >
+          50
+        </option>
+      </select>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`pagination render 3`] = `
+<DocumentFragment>
+  <div
+    class="pagination"
+  >
+    <span>
+      <button
+        type="button"
+      >
+        First page
+      </button>
+      <button
+        type="button"
+      >
+        Previous page
+      </button>
+      <button
+        type="button"
+      >
+        Next page
+      </button>
+      <button
+        type="button"
+      >
+        Last page
+      </button>
+    </span>
+    <span>
+      Page 2 of 3
+    </span>
+    <span>
+      Items per page 
+      <select>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          selected=""
+          value="25"
+        >
+          25
+        </option>
+        <option
+          value="50"
+        >
+          50
+        </option>
+      </select>
+    </span>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`pagination render 4`] = `
+<DocumentFragment>
+  <div
+    class="pagination"
+  >
+    <span />
+    <span>
+      Page 1 of 1
+    </span>
+    <span>
+      Items per page 
+      <select>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          selected=""
+          value="25"
+        >
+          25
+        </option>
+        <option
+          value="50"
+        >
+          50
+        </option>
+      </select>
+    </span>
+  </div>
+</DocumentFragment>
+`;
